@@ -1,0 +1,50 @@
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+ /**MOVIL**/
+@media (max-width:767px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+ /**TABLET**/
+@media(min-width:768px) and (max-width:990px){
+    .desktop{
+        display: none; 
+    }
+    .movil{ 
+        display: none; 
+    }
+}
+   /**ESCRITORIO**/
+@media(min-width:991px){
+    .tablet{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Agrega cualquier otro estilo adicional que desees para tus elementos */
+
